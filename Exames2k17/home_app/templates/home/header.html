@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load staticfiles %}
+      <link rel="shortcut icon" type="image/png" href="{% static 'imgs/favicon.ico' %}"/>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type = "text/css"/>
+    <link rel="stylesheet" href="{% static 'css/navbarcss.css' %}" type = "text/css"/>
+    <script src="{% static 'js/jquery-3.1.1.min.js' %}"></script>
+    <script src="{% static 'js/sidemenujs.js' %}"></script>
+</head>
+<body>
+
+{% block mainBlock %}
+{% endblock %}
+
+</body>
+</html>
+
